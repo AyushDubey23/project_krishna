@@ -17,7 +17,7 @@ const roles = [
   },
   {
     title: "EDITOR/GAFFER",
-    image: "/home2.jpg",
+    image: "/home2.JPG",
     projects: [
       { title: "Night Scenes", category: "NARRATIVE", image: "/editorgaffer1.jpg" },
       { title: "Light Study", category: "TRAILER", image: "/editorgaffer2.jpg" },
