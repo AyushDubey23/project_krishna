@@ -30,7 +30,7 @@ const roles = [
       {
         title: "Babuji Dheere Chalna",
         category: "NARRATIVE",
-        image: "/director3.jpg",
+        image: "/director3.png",
         videoUrl: "https://drive.google.com/file/d/1whUopyByAXlyyLgewC594PHKf0z_sSxK/view?usp=drive_link",
         description:
           "Led a dynamic team of nine individuals, with the unique distinction of being the youngest member among them. -Wrote, story boarded and choreographed a story on an existing 1950s song -Executed the entire independent production cycle with efficiency and precision, within an impressive nine-day time frame.",
