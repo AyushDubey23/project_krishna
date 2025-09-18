@@ -16,7 +16,21 @@ const roles = [
         videoUrl: "https://drive.google.com/file/d/1ONMIidN4gjZ_m0TdjttoKS0Pepdah0V8/view?usp=sharing",
         description:
           "Issued March, 2025 Adobe Certified Professional in Digital Video Using Adobe Premiere Pro SOFT SKILLS Visual storytelling Decisive and Problem-Solving Leadership Teamwork Communication Design Development Adobe Certified Professional in Visual Effects & Motion Graphics Using Adobe After Effects Issued March, 2025 -A short student documentary exploring the impact of web cookies and digital tracking on everyday users. -The film combines personal data analysis, street interviews, expert insights, and visual evidence to raise awareness about online privacy and data ethics",
-          screenshots: ["d31.png", "d32.png", "d33.png", "d35.png", "d36.png", "d37.png", "d38.png", "d39.png", "d40.png","d311.png","d312.png","d331.png","d314.png"],
+        screenshots: [
+          "d31.png",
+          "d32.png",
+          "d33.png",
+          "d35.png",
+          "d36.png",
+          "d37.png",
+          "d38.png",
+          "d39.png",
+          "d40.png",
+          "d311.png",
+          "d312.png",
+          "d331.png",
+          "d314.png",
+        ],
       },
       {
         title: "Happy Hours with Ralf",
@@ -25,7 +39,18 @@ const roles = [
         videoUrl: "https://drive.google.com/file/d/1yIWB43aChruFhe2tYBcNfDi_h6f_v9bU/view?usp=drive_link",
         description:
           "Scriptwriter- ...Led the creative vision and execution of the episode in a student production, ensuring a cohesive narrative and engaging flow. -Directed talent and crew, managing on-set dynamics for a smooth production. -Oversaw shot composition, pacing, and performance to maintain the show's tone and energy.",
-        screenshots: ["d21.png", "d22.png", "d23.png",  "d24.png", "d25.png","d26.png", "d27.png", "d28.png", "d29.png", "d30.png"],
+        screenshots: [
+          "d21.png",
+          "d22.png",
+          "d23.png",
+          "d24.png",
+          "d25.png",
+          "d26.png",
+          "d27.png",
+          "d28.png",
+          "d29.png",
+          "d30.png",
+        ],
       },
       {
         title: "Babuji Dheere Chalna",
@@ -34,7 +59,20 @@ const roles = [
         videoUrl: "https://drive.google.com/file/d/1whUopyByAXlyyLgewC594PHKf0z_sSxK/view?usp=drive_link",
         description:
           "Led a dynamic team of nine individuals, with the unique distinction of being the youngest member among them. -Wrote, story boarded and choreographed a story on an existing 1950s song -Executed the entire independent production cycle with efficiency and precision, within an impressive nine-day time frame.",
-          screenshots: ["d11.png", "d12.png", "d13.png", "d14.png","d112.png", "d15.png","d111.png", "d16.png", "d17.png", "d18.png", "d19.png", "d20.png"],
+        screenshots: [
+          "d11.png",
+          "d12.png",
+          "d13.png",
+          "d14.png",
+          "d112.png",
+          "d15.png",
+          "d111.png",
+          "d16.png",
+          "d17.png",
+          "d18.png",
+          "d19.png",
+          "d20.png",
+        ],
       },
     ],
   },
@@ -47,7 +85,8 @@ const roles = [
         category: "SHORT FILM",
         image: "/home2.png",
         videoUrl: "https://drive.google.com/file/d/1WfxsnzBPR3S1jXdgoCUkfCA3VGWuh-mw/view",
-      description: "Trapped In Reverie -Edited a student short film exploring the concept of lucid dreaming. -Assisted in colour grading using DaVinci Resolve, worked on sound design in Avid Pro Tools, and edited the film in Adobe Premiere Pro. -Also contributed as a gaffer on set, managing lighting to enhance the film’s visual narrative.",
+        description:
+          "Trapped In Reverie -Edited a student short film exploring the concept of lucid dreaming. -Assisted in colour grading using DaVinci Resolve, worked on sound design in Avid Pro Tools, and edited the film in Adobe Premiere Pro. -Also contributed as a gaffer on set, managing lighting to enhance the film’s visual narrative.",
         screenshots: ["e.png", "e2.png", "e3.png", "e5.png", "e6.png", "e7.png", "e8.png", "e9.png", "e10.png"],
       },
     ],
@@ -61,7 +100,8 @@ const roles = [
         category: "SHORT FILM",
         image: "/home21.png",
         videoUrl: "https://drive.google.com/file/d/1WfxsnzBPR3S1jXdgoCUkfCA3VGWuh-mw/view",
-      description: "Trapped In Reverie -Edited a student short film exploring the concept of lucid dreaming. -Assisted in colour grading using DaVinci Resolve, worked on sound design in Avid Pro Tools, and edited the film in Adobe Premiere Pro. -Also contributed as a gaffer on set, managing lighting to enhance the film’s visual narrative.",
+        description:
+          "Trapped In Reverie -Edited a student short film exploring the concept of lucid dreaming. -Assisted in colour grading using DaVinci Resolve, worked on sound design in Avid Pro Tools, and edited the film in Adobe Premiere Pro. -Also contributed as a gaffer on set, managing lighting to enhance the film’s visual narrative.",
         screenshots: ["e.png", "e2.png", "e3.png", "e5.png", "e6.png", "e7.png", "e8.png", "e9.png", "e10.png"],
       },
     ],
@@ -403,7 +443,6 @@ export default function HomePage() {
                 <Button
                   variant="ghost"
                   onClick={() => resetToHome()}
-
                   className="text-gray-600 hover:text-black tracking-wider hover-scale"
                 >
                   ← Back to Home
@@ -440,37 +479,33 @@ export default function HomePage() {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>
-              <img
-                src="/Hriday.jpg"
-                alt="Hriday Bajaj"
-                className="w-full max-w-md mx-auto lg:mx-0 grainy-effect"
-              />
+              <img src="/Hriday.jpg" alt="Hriday Bajaj" className="w-full max-w-md mx-auto lg:mx-0 grainy-effect" />
             </div>
 
             <div className="space-y-6 text-sm leading-relaxed text-gray-700">
               <p>
-                <strong>Hriday Bajaj</strong> is a versatile Indian filmmaker and storyteller currently based in
-                London. Born and raised in Lucknow, Uttar Pradesh, he developed a passion for filmmaking, project management,
-                and collaborative creation. His work explores a diverse range of subjects, from contemporary
-                social issues to imaginative visual narratives. Prior to his current studies, he gained industry
-                experience as an intern at India TV, one of India's top national news channels. He is currently
-                pursuing a BA (Hons) in Film and Television from the University of Arts London. His credits
-                include directing the music video <em>Babuji Dheere Chalna</em>, producing the short film{" "}
-                <em>American Beauty</em>, and editing the short film <em>Trapped in Reverie</em>.
+                <strong>Hriday Bajaj</strong> is a versatile Indian filmmaker and storyteller currently based in London.
+                Born and raised in Lucknow, Uttar Pradesh, he developed a passion for filmmaking, project management,
+                and collaborative creation. His work explores a diverse range of subjects, from contemporary social
+                issues to imaginative visual narratives. Prior to his current studies, he gained industry experience as
+                an intern at India TV, one of India's top national news channels. He is currently pursuing a BA (Hons)
+                in Film and Television from the University of Arts London. His credits include directing the music video{" "}
+                <em>Babuji Dheere Chalna</em>, producing the short film <em>American Beauty</em>, and editing the short
+                film <em>Trapped in Reverie</em>.
               </p>
 
               <p>
-                Hriday's directorial documentary, <em>Crumbs or Traces?</em>, investigates the pervasive impact of
-                web cookies and digital tracking on everyday users. The film combines personal data analysis,
-                street interviews, and expert insights to raise awareness about online privacy and data ethics.
-                Hriday tells stories that leverage his adaptability and creative problem-solving, bringing a sharp
-                sense of humor and strategic thinking to each production.
+                Hriday's directorial documentary, <em>Crumbs or Traces?</em>, investigates the pervasive impact of web
+                cookies and digital tracking on everyday users. The film combines personal data analysis, street
+                interviews, and expert insights to raise awareness about online privacy and data ethics. Hriday tells
+                stories that leverage his adaptability and creative problem-solving, bringing a sharp sense of humor and
+                strategic thinking to each production.
               </p>
 
               <p>
-                He is a certified professional in both Adobe Premiere Pro and Adobe After Effects. He holds a
-                BAFTA x ALBERT certification for Sustainable Media Industry Module and continues to develop his
-                craft as a dedicated film student.
+                He is a certified professional in both Adobe Premiere Pro and Adobe After Effects. He holds a BAFTA x
+                ALBERT certification for Sustainable Media Industry Module and continues to develop his craft as a
+                dedicated film student.
               </p>
 
               <div className="mt-8">
@@ -484,10 +519,8 @@ export default function HomePage() {
               </div>
 
               <p className="text-xs text-gray-500 mt-8">
-              {" "}
-                <a href="#" className="underline">
-                
-                </a>
+                {" "}
+                <a href="#" className="underline"></a>
               </p>
             </div>
           </div>
@@ -613,7 +646,7 @@ export default function HomePage() {
 
               <button
                 onClick={() => {
-                  navigateToRole("bio")
+                  navigateToBio()
                   setIsMenuOpen(false)
                 }}
                 className="block text-2xl font-light tracking-[0.2em] text-black hover:text-gray-600 transition-colors menu-item"
