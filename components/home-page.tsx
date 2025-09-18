@@ -16,7 +16,7 @@ const roles = [
         videoUrl: "https://drive.google.com/file/d/1ONMIidN4gjZ_m0TdjttoKS0Pepdah0V8/view?usp=sharing",
         description:
           "Issued March, 2025 Adobe Certified Professional in Digital Video Using Adobe Premiere Pro SOFT SKILLS Visual storytelling Decisive and Problem-Solving Leadership Teamwork Communication Design Development Adobe Certified Professional in Visual Effects & Motion Graphics Using Adobe After Effects Issued March, 2025 -A short student documentary exploring the impact of web cookies and digital tracking on everyday users. -The film combines personal data analysis, street interviews, expert insights, and visual evidence to raise awareness about online privacy and data ethics",
-        screenshots: ["d11.png", "d12.png", "d13.png", "d14.png", "d15.png"],
+        screenshots: ["d11.png", "d12.png", "d13.png", "d14.png", "d15.png", "d16.png", "d17.png", "d18.png", "d19.png", "d20.png"],
       },
       {
         title: "Happy Hours with Ralf",
@@ -25,7 +25,7 @@ const roles = [
         videoUrl: "https://drive.google.com/file/d/1yIWB43aChruFhe2tYBcNfDi_h6f_v9bU/view?usp=drive_link",
         description:
           "Scriptwriter- ...Led the creative vision and execution of the episode in a student production, ensuring a cohesive narrative and engaging flow. -Directed talent and crew, managing on-set dynamics for a smooth production. -Oversaw shot composition, pacing, and performance to maintain the show's tone and energy.",
-        screenshots: ["d21.png", "d22.png", "d23.png", "d24.png", "d25.png"],
+        screenshots: ["d21.png", "d22.png", "d23.png", "d111.png", "d24.png","d112.png", "d25.png","d26.png", "d27.png", "d28.png", "d29.png", "d20.png"],
       },
       {
         title: "Babuji Dheere Chalna",
@@ -34,7 +34,7 @@ const roles = [
         videoUrl: "https://drive.google.com/file/d/1whUopyByAXlyyLgewC594PHKf0z_sSxK/view?usp=drive_link",
         description:
           "Led a dynamic team of nine individuals, with the unique distinction of being the youngest member among them. -Wrote, story boarded and choreographed a story on an existing 1950s song -Executed the entire independent production cycle with efficiency and precision, within an impressive nine-day time frame.",
-        screenshots: ["d31.png", "d32.png", "d33.png", "d34.png", "d35.png"],
+        screenshots: ["d31.png", "d32.png", "d33.png", "d35.png", "d36.png", "d37.png", "d38.png", "d39.png", "d40.png"],
       },
     ],
   },
