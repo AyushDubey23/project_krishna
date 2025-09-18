@@ -414,7 +414,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>
               <img
-                src="/professional-filmmaker-portrait.png"
+                src="/Hriday.jpg"
                 alt="Hriday Bajaj"
                 className="w-full max-w-md mx-auto lg:mx-0 grainy-effect"
               />
@@ -422,45 +422,44 @@ export default function HomePage() {
 
             <div className="space-y-6 text-sm leading-relaxed text-gray-700">
               <p>
-                <strong>Hriday Bajaj</strong> is a multi-disciplinary filmmaker based in India. Born and raised in
-                Mumbai, he spent his formative years developing a passion for visual storytelling, and his work revolves
-                around themes of human connection and cultural identity. Prior to directing, he worked extensively as an
-                editor and gaffer on numerous independent films, as well as commercial projects. He has also worked as a
-                producer on over 20 short films from across India, including projects from Mumbai, Delhi, Bangalore, and
-                Pune. He holds a degree in Film Production from the Film and Television Institute of India. His editing
-                credits include
-                <em> Urban Symphony</em> (Mumbai International Film Festival, Delhi Film Festival),
-                <em> Silent Echoes</em> (BAFTA Student Film Awards, Student Academy Awards, National Film Awards), and{" "}
-                <em> Crossroads</em>.
+                <strong>Hriday Bajaj</strong> is a versatile Indian filmmaker and storyteller currently based in
+                London. Born and raised in Delhi NCR, he developed a passion for filmmaking, project management,
+                and collaborative creation. His work explores a diverse range of subjects, from contemporary
+                social issues to imaginative visual narratives. Prior to his current studies, he gained industry
+                experience as an intern at India TV, one of India's top national news channels. He is currently
+                pursuing a BA (Hons) in Film and Television from the University of Arts London. His credits
+                include directing the music video <em>Babuji Dheere Chalna</em>, producing the short film{" "}
+                <em>American Beauty</em>, and editing the short film <em>Trapped in Reverie</em>.
               </p>
 
               <p>
-                Hriday's short film <em>Tea Stories</em> (चाय की कहानियाँ) premiered at the Mumbai International Film
-                Festival and was a recipient of the Young Filmmaker Fellowship. Shot in Mumbai, the film explores the
-                relationship between two generations who must confront their different perspectives on tradition and
-                modernity to move forward with their family business. Hriday tells stories of characters navigating
-                cultural transitions and finding their place in a rapidly changing world.
+                Hriday's directorial documentary, <em>Crumbs or Traces?</em>, investigates the pervasive impact of
+                web cookies and digital tracking on everyday users. The film combines personal data analysis,
+                street interviews, and expert insights to raise awareness about online privacy and data ethics.
+                Hriday tells stories that leverage his adaptability and creative problem-solving, bringing a sharp
+                sense of humor and strategic thinking to each production.
               </p>
 
               <p>
-                He is fluent in Hindi and English. <em>Kahaniyan sunata hun main.</em>
-                Hriday currently works as a freelance filmmaker across multiple disciplines.
+                He is a certified professional in both Adobe Premiere Pro and Adobe After Effects. He holds a
+                BAFTA x ALBERT certification for Sustainable Media Industry Module and continues to develop his
+                craft as a dedicated film student.
               </p>
 
               <div className="mt-8">
                 <a
-                  href="/assets/hriday-bajaj-resume.pdf"
+                  href="/HridayBajajResume.pdf"
                   download="Hriday_Bajaj_Resume.pdf"
                   className="inline-block px-6 py-3 bg-black text-white text-xs tracking-wider hover:bg-gray-800 transition-colors hover-scale"
                 >
-                  DOWNLOAD RESUME
+                  RESUME
                 </a>
               </div>
 
               <p className="text-xs text-gray-500 mt-8">
                 Photo courtesy of{" "}
                 <a href="#" className="underline">
-                  Arjun Sharma
+                
                 </a>
               </p>
             </div>
