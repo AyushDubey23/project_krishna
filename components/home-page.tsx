@@ -16,7 +16,7 @@ const roles = [
         videoUrl: "https://drive.google.com/file/d/1ONMIidN4gjZ_m0TdjttoKS0Pepdah0V8/view?usp=sharing",
         description:
           "Issued March, 2025 Adobe Certified Professional in Digital Video Using Adobe Premiere Pro SOFT SKILLS Visual storytelling Decisive and Problem-Solving Leadership Teamwork Communication Design Development Adobe Certified Professional in Visual Effects & Motion Graphics Using Adobe After Effects Issued March, 2025 -A short student documentary exploring the impact of web cookies and digital tracking on everyday users. -The film combines personal data analysis, street interviews, expert insights, and visual evidence to raise awareness about online privacy and data ethics",
-          screenshots: ["/d31.png", "/d32.png", "/d33.png", "/d35.png", "/d36.png", "/d37.png", "/d38.png", "/d39.png", "/d40.png"],
+          screenshots: ["d31.png", "d32.png", "d33.png", "d35.png", "d36.png", "d37.png", "d38.png", "d39.png", "d40.png","d311.png","d312.png","d331.png","d314.png"],
       },
       {
         title: "Happy Hours with Ralf",
