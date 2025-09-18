@@ -34,7 +34,7 @@ const roles = [
         videoUrl: "https://drive.google.com/file/d/1whUopyByAXlyyLgewC594PHKf0z_sSxK/view?usp=drive_link",
         description:
           "Led a dynamic team of nine individuals, with the unique distinction of being the youngest member among them. -Wrote, story boarded and choreographed a story on an existing 1950s song -Executed the entire independent production cycle with efficiency and precision, within an impressive nine-day time frame.",
-          screenshots: ["/d11.png", "/d12.png", "/d13.png", "/d14.png","/d112.png", "/d15.png","/d111.png", "/d16.png", "/d17.png", "/d18.png", "/d19.png", "/d20.png"],
+          screenshots: ["d11.png", "d12.png", "d13.png", "d14.png","d112.png", "d15.png","d111.png", "d16.png", "d17.png", "d18.png", "d19.png", "d20.png"],
       },
     ],
   },
