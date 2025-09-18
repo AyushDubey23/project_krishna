@@ -457,7 +457,7 @@ export default function HomePage() {
               </div>
 
               <p className="text-xs text-gray-500 mt-8">
-                Photo courtesy of{" "}
+              {" "}
                 <a href="#" className="underline">
                 
                 </a>
