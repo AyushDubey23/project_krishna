@@ -107,6 +107,27 @@ export default function HomePage() {
   const [selectedProject, setSelectedProject] = useState<any>(null)
   const [currentScreenshot, setCurrentScreenshot] = useState(0)
 
+  const resetToHome = () => {
+    setCurrentSection("home")
+    setSelectedRole(null)
+    setSelectedProject(null)
+    setCurrentScreenshot(0)
+  }
+
+  const navigateToRole = (role: string) => {
+    setSelectedRole(role)
+    setSelectedProject(null)
+    setCurrentSection("home")
+    setCurrentScreenshot(0)
+  }
+
+  const navigateToBio = () => {
+    setCurrentSection("bio")
+    setSelectedRole(null)
+    setSelectedProject(null)
+    setCurrentScreenshot(0)
+  }
+
   useEffect(() => {
     if (selectedProject && selectedProject.screenshots) {
       const interval = setInterval(() => {
@@ -249,7 +270,7 @@ export default function HomePage() {
           <div className="text-center mt-12">
             <Button
               variant="ghost"
-              onClick={() => setSelectedRole(null)}
+              onClick={() => resetToHome()}
               className="text-gray-600 hover:text-black tracking-wider hover-scale"
             >
               ← Back to Home
@@ -373,10 +394,8 @@ export default function HomePage() {
               <div className="text-center">
                 <Button
                   variant="ghost"
-                  onClick={() => {
-                    setSelectedProject(null)
-                    setSelectedRole(null)
-                  }}
+                  onClick={() => resetToHome()}
+
                   className="text-gray-600 hover:text-black tracking-wider hover-scale"
                 >
                   ← Back to Home
@@ -505,7 +524,7 @@ export default function HomePage() {
             <div className="text-center space-y-6">
               <button
                 onClick={() => {
-                  setCurrentSection("home")
+                  resetToHome()
                   setIsMenuOpen(false)
                 }}
                 className="block text-2xl font-light tracking-[0.2em] text-black hover:text-gray-600 transition-colors menu-item"
@@ -516,7 +535,7 @@ export default function HomePage() {
 
               <button
                 onClick={() => {
-                  setSelectedRole("director")
+                  navigateToRole("director")
                   setIsMenuOpen(false)
                 }}
                 className="block text-2xl font-light tracking-[0.2em] text-black hover:text-gray-600 transition-colors menu-item"
@@ -526,17 +545,27 @@ export default function HomePage() {
 
               <button
                 onClick={() => {
-                  setSelectedRole("editorgaffer")
+                  navigateToRole("editor")
                   setIsMenuOpen(false)
                 }}
                 className="block text-2xl font-light tracking-[0.2em] text-black hover:text-gray-600 transition-colors menu-item"
               >
-                Editor/Gaffer
+                Editor
               </button>
 
               <button
                 onClick={() => {
-                  setSelectedRole("producer")
+                  navigateToRole("gaffer")
+                  setIsMenuOpen(false)
+                }}
+                className="block text-2xl font-light tracking-[0.2em] text-black hover:text-gray-600 transition-colors menu-item"
+              >
+                Gaffer
+              </button>
+
+              <button
+                onClick={() => {
+                  navigateToRole("producer")
                   setIsMenuOpen(false)
                 }}
                 className="block text-2xl font-light tracking-[0.2em] text-black hover:text-gray-600 transition-colors menu-item"
@@ -546,7 +575,7 @@ export default function HomePage() {
 
               <button
                 onClick={() => {
-                  setSelectedRole("sounddesigner")
+                  navigateToRole("sounddesigner")
                   setIsMenuOpen(false)
                 }}
                 className="block text-2xl font-light tracking-[0.2em] text-black hover:text-gray-600 transition-colors menu-item"
@@ -556,17 +585,17 @@ export default function HomePage() {
 
               <button
                 onClick={() => {
-                  setSelectedRole("boommicoperator")
+                  navigateToRole("soundoperator")
                   setIsMenuOpen(false)
                 }}
                 className="block text-2xl font-light tracking-[0.2em] text-black hover:text-gray-600 transition-colors menu-item"
               >
-                Boom Mic Operator
+                Sound Operator
               </button>
 
               <button
                 onClick={() => {
-                  setSelectedRole("photographer")
+                  navigateToRole("photographer")
                   setIsMenuOpen(false)
                 }}
                 className="block text-2xl font-light tracking-[0.2em] text-black hover:text-gray-600 transition-colors menu-item"
@@ -576,7 +605,7 @@ export default function HomePage() {
 
               <button
                 onClick={() => {
-                  setCurrentSection("bio")
+                  navigateToRole("bio")
                   setIsMenuOpen(false)
                 }}
                 className="block text-2xl font-light tracking-[0.2em] text-black hover:text-gray-600 transition-colors menu-item"
