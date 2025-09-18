@@ -40,22 +40,30 @@ const roles = [
   },
   {
     title: "EDITOR",
-    image: "/home2.jpg",
+    image: "/home2.png",
     projects: [
-      { title: "Night Scenes", category: "NARRATIVE", image: "/editorgaffer1.jpg" },
-      { title: "Light Study", category: "TRAILER", image: "/editorgaffer2.jpg" },
-      { title: "Color Grading", category: "DOCUMENTARY", image: "/editorgaffer3.jpg" },
-      { title: "Brand Film", category: "COMMERCIAL", image: "/editorgaffer4.jpg" },
+      {
+        title: "TRAPPED IN REVERIE",
+        category: "SHORT FILM",
+        image: "/home2.png",
+        videoUrl: "https://drive.google.com/file/d/1WfxsnzBPR3S1jXdgoCUkfCA3VGWuh-mw/view",
+      description: "Trapped In Reverie -Edited a student short film exploring the concept of lucid dreaming. -Assisted in colour grading using DaVinci Resolve, worked on sound design in Avid Pro Tools, and edited the film in Adobe Premiere Pro. -Also contributed as a gaffer on set, managing lighting to enhance the film’s visual narrative."
+        screenshots: ["e.png", "e2.png", "e3.png", "e5.png", "e6.png", "e7.png", "e8.png", "e9.png", "e10.png"],
+      },
     ],
   },
   {
     title: "GAFFER",
-    image: "/home2.jpg",
+    image: "/home21.jpg",
     projects: [
-      { title: "Night Scenes", category: "NARRATIVE", image: "/editorgaffer1.jpg" },
-      { title: "Light Study", category: "TRAILER", image: "/editorgaffer2.jpg" },
-      { title: "Color Grading", category: "DOCUMENTARY", image: "/editorgaffer3.jpg" },
-      { title: "Brand Film", category: "COMMERCIAL", image: "/editorgaffer4.jpg" },
+      {
+        title: "TRAPPED IN REVERIE",
+        category: "SHORT FILM",
+        image: "/home21.png",
+        videoUrl: "https://drive.google.com/file/d/1WfxsnzBPR3S1jXdgoCUkfCA3VGWuh-mw/view",
+      description: "Trapped In Reverie -Edited a student short film exploring the concept of lucid dreaming. -Assisted in colour grading using DaVinci Resolve, worked on sound design in Avid Pro Tools, and edited the film in Adobe Premiere Pro. -Also contributed as a gaffer on set, managing lighting to enhance the film’s visual narrative."
+        screenshots: ["e.png", "e2.png", "e3.png", "e5.png", "e6.png", "e7.png", "e8.png", "e9.png", "e10.png"],
+      },
     ],
   },
   {
