@@ -20,7 +20,7 @@ const roles = [
       },
       {
         title: "Happy Hours with Ralf",
-        category: "NARRATIVE",
+        category: "TALK SHOW",
         image: "/director2.png",
         videoUrl: "https://drive.google.com/file/d/1yIWB43aChruFhe2tYBcNfDi_h6f_v9bU/view?usp=drive_link",
         description:
@@ -29,7 +29,7 @@ const roles = [
       },
       {
         title: "Babuji Dheere Chalna",
-        category: "NARRATIVE",
+        category: "MUSIC VIDEO",
         image: "/director3.png",
         videoUrl: "https://drive.google.com/file/d/1whUopyByAXlyyLgewC594PHKf0z_sSxK/view?usp=drive_link",
         description:
@@ -79,7 +79,7 @@ const roles = [
     ],
   },
   {
-    title: "BOOM MIC OPERATOR",
+    title: "SOUND OPERATOR",
     image: "/home5.jpg",
     projects: [
       { title: "Dialogue Recording", category: "NARRATIVE", image: "/boommicoperator1.jpg" },
