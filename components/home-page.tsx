@@ -25,7 +25,7 @@ const roles = [
         videoUrl: "https://drive.google.com/file/d/1yIWB43aChruFhe2tYBcNfDi_h6f_v9bU/view?usp=drive_link",
         description:
           "Scriptwriter- ...Led the creative vision and execution of the episode in a student production, ensuring a cohesive narrative and engaging flow. -Directed talent and crew, managing on-set dynamics for a smooth production. -Oversaw shot composition, pacing, and performance to maintain the show's tone and energy.",
-        screenshots: ["/d21.png", "/d22.png", "/d23.png",  "/d24.png", "/d25.png","/d26.png", "/d27.png", "/d28.png", "/d29.png", "/d20.png"],
+        screenshots: ["d21.png", "d22.png", "d23.png",  "d24.png", "d25.png","d26.png", "d27.png", "d28.png", "d29.png", "d30.png"],
       },
       {
         title: "Babuji Dheere Chalna",
