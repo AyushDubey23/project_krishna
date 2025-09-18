@@ -54,7 +54,7 @@ const roles = [
   },
   {
     title: "GAFFER",
-    image: "/home21.jpg",
+    image: "/home21.png",
     projects: [
       {
         title: "TRAPPED IN REVERIE",
