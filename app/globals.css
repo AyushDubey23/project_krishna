@@ -118,10 +118,7 @@
 
 @layer base {
   * {
-    /* Removed border-border and outline-ring/50 that was causing glow effects */
-    border: none;
-    outline: none;
-    box-shadow: none;
+    @apply border-border outline-ring/50;
   }
   body {
     @apply bg-background text-foreground;
@@ -138,22 +135,33 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  /* Added more aggressive removal of all browser effects */
-  outline: none !important;
-  border: none !important;
-  box-shadow: none !important;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-focus-ring-color: transparent;
+  outline: none; /* Remove browser outline */
+  border: none; /* Remove any border */
+  box-shadow: none; /* Remove any box shadow */
 }
 
-.tile-hover:focus,
-.tile-hover:active,
-.tile-hover:hover {
-  /* Ensure no glow effects on any interaction state */
-  outline: none !important;
-  border: none !important;
-  box-shadow: none !important;
-  -webkit-tap-highlight-color: transparent;
+.tile-hover:focus {
+  outline: none; /* Remove focus outline */
+  box-shadow: none; /* Remove focus box shadow */
+}
+
+.tile-hover .tile-image {
+  transition: filter 0.3s ease;
+  outline: none; /* Remove image outline */
+}
+
+.tile-hover:hover .tile-image {
+  filter: blur(3px);
+}
+
+.tile-hover .tile-text {
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 10;
+}
+
+.tile-hover:hover .tile-text {
+  transform: scale(1.15);
 }
 
 /* Improved button and menu item hover effects */
