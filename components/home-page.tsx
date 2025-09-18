@@ -423,7 +423,7 @@ export default function HomePage() {
             <div className="space-y-6 text-sm leading-relaxed text-gray-700">
               <p>
                 <strong>Hriday Bajaj</strong> is a versatile Indian filmmaker and storyteller currently based in
-                London. Born and raised in Delhi NCR, he developed a passion for filmmaking, project management,
+                London. Born and raised in Lucknow, Uttar Pradesh, he developed a passion for filmmaking, project management,
                 and collaborative creation. His work explores a diverse range of subjects, from contemporary
                 social issues to imaginative visual narratives. Prior to his current studies, he gained industry
                 experience as an intern at India TV, one of India's top national news channels. He is currently
